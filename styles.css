@@ -191,11 +191,13 @@ button {
 }
 
 .game[data-mood="ending"] .character-sprite {
-  transform: translateY(-8px);
+  transform: translateY(-8px) scale(1.02);
+  filter: drop-shadow(0 24px 36px rgba(151, 58, 86, 0.34));
 }
 
 .game[data-mood="gameover"] .character-sprite {
-  filter: grayscale(0.9) brightness(0.72) drop-shadow(0 24px 32px rgba(22, 32, 42, 0.36));
+  transform: rotate(-2deg);
+  filter: brightness(0.9) drop-shadow(0 24px 32px rgba(22, 32, 42, 0.36));
 }
 
 .hud {

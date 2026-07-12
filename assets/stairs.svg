@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">학교 계단참</title>
+  <desc id="desc">난간과 비상등이 보이는 학교 계단 배경</desc>
+  <defs>
+    <linearGradient id="stairWall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e9eee9"/>
+      <stop offset="1" stop-color="#c6d0cc"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b6b0a4"/>
+      <stop offset="1" stop-color="#827b72"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#stairWall)"/>
+  <rect x="0" y="0" width="1200" height="760" fill="#d95542" opacity=".07"/>
+  <polygon points="0,470 548,350 1200,470 1200,760 0,760" fill="#9dafa8"/>
+  <g>
+    <polygon points="0,590 1200,590 1200,760 0,760" fill="url(#step)"/>
+    <rect x="0" y="548" width="1200" height="42" fill="#c5beb1"/>
+    <rect x="0" y="506" width="1200" height="42" fill="#ada69b"/>
+    <rect x="0" y="464" width="1200" height="42" fill="#c5beb1"/>
+    <rect x="0" y="422" width="1200" height="42" fill="#ada69b"/>
+    <path d="M0 548h1200M0 506h1200M0 464h1200M0 422h1200" stroke="#756f68" stroke-width="4"/>
+  </g>
+  <path d="M92 455h1016" stroke="#35515a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M120 455v170M320 455v170M520 455v170M720 455v170M920 455v170M1080 455v170" stroke="#35515a" stroke-width="10" stroke-linecap="round"/>
+  <rect x="138" y="82" width="360" height="250" rx="8" fill="#eef9fb" stroke="#6f9eaa" stroke-width="8"/>
+  <path d="M318 86v242M142 206h354" stroke="#6f9eaa" stroke-width="6"/>
+  <rect x="156" y="100" width="144" height="92" fill="#b7dae5"/>
+  <rect x="336" y="100" width="146" height="92" fill="#d7edf1"/>
+  <rect x="156" y="220" width="144" height="94" fill="#d7edf1"/>
+  <rect x="336" y="220" width="146" height="94" fill="#b7dae5"/>
+  <rect x="782" y="94" width="166" height="72" rx="8" fill="#1f5f54"/>
+  <path d="M812 130h106" stroke="#fffaf2" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="738" cy="128" r="25" fill="#d95542"/>
+  <path d="M726 128h24M738 116v24" stroke="#fffaf2" stroke-width="7" stroke-linecap="round"/>
+  <path d="M596 85l-42 246M628 88l-36 246M660 92l-28 246" stroke="#b8c4c1" stroke-width="5" opacity=".45"/>
+  <path d="M108 642h984" stroke="#5f5750" stroke-width="3" opacity=".35"/>
+</svg>

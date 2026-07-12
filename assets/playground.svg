@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">학교 운동장</title>
+  <desc id="desc">학교 건물과 넓은 운동장 대피 구역 배경</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bfe4ef"/>
+      <stop offset="1" stop-color="#f4ecd2"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#dcb774"/>
+      <stop offset="1" stop-color="#b77f43"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <rect y="472" width="1200" height="288" fill="url(#ground)"/>
+  <path d="M0 472h1200" stroke="#9f8c62" stroke-width="5"/>
+  <path d="M0 610c185-36 380-36 586 0s408 36 614 0" fill="none" stroke="#f2dfb1" stroke-width="6" opacity=".5"/>
+  <path d="M0 690c232-42 456-42 672 0s392 42 528 0" fill="none" stroke="#8f633d" stroke-width="3" opacity=".3"/>
+
+  <rect x="68" y="182" width="466" height="256" fill="#e9d7b8" stroke="#9e7b52" stroke-width="8"/>
+  <rect x="94" y="216" width="76" height="64" fill="#8fc1cf"/>
+  <rect x="198" y="216" width="76" height="64" fill="#8fc1cf"/>
+  <rect x="302" y="216" width="76" height="64" fill="#8fc1cf"/>
+  <rect x="406" y="216" width="76" height="64" fill="#8fc1cf"/>
+  <rect x="94" y="314" width="76" height="64" fill="#a7d3db"/>
+  <rect x="198" y="314" width="76" height="64" fill="#a7d3db"/>
+  <rect x="302" y="314" width="76" height="64" fill="#a7d3db"/>
+  <rect x="406" y="314" width="76" height="64" fill="#a7d3db"/>
+  <rect x="248" y="383" width="98" height="55" fill="#715236"/>
+  <path d="M52 178h498l-46-74H98z" fill="#bb684e"/>
+  <path d="M82 438h428" stroke="#795a3d" stroke-width="7"/>
+
+  <rect x="800" y="260" width="44" height="196" fill="#5c6f72"/>
+  <rect x="978" y="260" width="44" height="196" fill="#5c6f72"/>
+  <rect x="780" y="250" width="262" height="20" fill="#5c6f72"/>
+  <path d="M832 270c32 72 94 72 158 0" fill="none" stroke="#d95542" stroke-width="8"/>
+  <circle cx="832" cy="270" r="10" fill="#d95542"/>
+  <circle cx="990" cy="270" r="10" fill="#d95542"/>
+
+  <path d="M688 196v248" stroke="#574c3c" stroke-width="8"/>
+  <path d="M688 220c34 8 68-20 102-8v80c-34-12-68 16-102 8z" fill="#2f7b4f"/>
+  <path d="M704 245h62M704 269h46" stroke="#fffaf2" stroke-width="6" stroke-linecap="round"/>
+  <path d="M650 506h108" stroke="#fffaf2" stroke-width="7" stroke-linecap="round"/>
+  <path d="M594 548h220" stroke="#fffaf2" stroke-width="6" stroke-dasharray="14 14" opacity=".8"/>
+  <path d="M604 540l-40 54h302l-42-54z" fill="none" stroke="#fffaf2" stroke-width="5" opacity=".8"/>
+
+  <g opacity=".68">
+    <circle cx="119" cy="521" r="12" fill="#356aa0"/>
+    <circle cx="156" cy="521" r="12" fill="#d95542"/>
+    <circle cx="193" cy="521" r="12" fill="#2f7b4f"/>
+    <path d="M119 536v44M156 536v44M193 536v44" stroke="#253640" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="1044" cy="526" r="12" fill="#356aa0"/>
+    <circle cx="1081" cy="526" r="12" fill="#d95542"/>
+    <path d="M1044 541v44M1081 541v44" stroke="#253640" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="M986 108c55 14 93 42 114 85" stroke="#fffaf2" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+</svg>

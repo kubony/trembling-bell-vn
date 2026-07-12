@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" role="img" aria-labelledby="title desc">
+  <title id="title">이수민 캐릭터 스탠딩</title>
+  <desc id="desc">교복 재킷을 입은 남학생 캐릭터 일러스트</desc>
+  <defs>
+    <linearGradient id="skin" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe0c8"/>
+      <stop offset="1" stop-color="#f0ad8a"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" x2="1">
+      <stop offset="0" stop-color="#233947"/>
+      <stop offset="1" stop-color="#38616e"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="0" x2="1">
+      <stop offset="0" stop-color="#20272c"/>
+      <stop offset="1" stop-color="#3a464d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-40%" y="-20%" width="180%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#142028" flood-opacity=".25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path d="M123 664c-12 14-30 18-53 15-10-1-14-8-8-14 13-11 35-20 55-33l27 11c-4 8-11 15-21 21z" fill="#20272c"/>
+    <path d="M241 664c13 13 32 16 55 12 10-2 13-9 7-15-15-10-37-17-58-29l-26 13c5 8 12 14 22 19z" fill="#20272c"/>
+    <path d="M119 370c-7 57-14 125-18 199-1 22-5 48-13 76h58c17-75 26-151 31-229l7-1c5 78 16 154 36 229h58c-10-29-16-55-19-77-9-77-14-144-18-200z" fill="url(#pants)"/>
+    <path d="M122 351c-19 25-34 54-45 87-5 14 2 27 14 29 11 2 21-5 25-18l27-76z" fill="#2b4f5e"/>
+    <path d="M240 351c20 25 36 54 48 87 5 14-2 27-14 30-12 2-22-5-27-18l-29-76z" fill="#2b4f5e"/>
+    <path d="M115 250c-9 37-13 83-10 138 45 20 103 22 154 1 2-57-4-104-18-140-31-22-88-22-126 1z" fill="url(#jacket)"/>
+    <path d="M150 241l31 112 33-112c-16-10-47-10-64 0z" fill="#fffaf2"/>
+    <path d="M171 254l-11 74 21 29 22-31-12-72z" fill="#c7483e"/>
+    <path d="M150 241c3 43 12 85 31 126-28-20-49-51-63-92 10-17 20-28 32-34z" fill="#1f3845"/>
+    <path d="M214 241c-4 44-14 86-33 126 29-20 51-51 66-92-10-17-21-28-33-34z" fill="#1f3845"/>
+    <path d="M136 197c7 34 21 56 45 57 25 1 42-23 48-58l-8-51-74 1z" fill="url(#skin)"/>
+    <path d="M133 155c-13-39 5-83 48-88 45-5 74 26 66 73-2 13-7 27-13 40-5-27-14-47-32-60-20 22-48 32-69 35z" fill="#272018"/>
+    <path d="M143 155c-4 18-7 35-7 47-12-9-20-33-9-42 4-4 10-5 16-5z" fill="#272018"/>
+    <path d="M230 153c6 0 12 2 15 6 9 11-2 33-15 42 2-13 2-30 0-48z" fill="#272018"/>
+    <path d="M153 176c6 3 14 3 20 0" fill="none" stroke="#54392e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M195 176c7 3 15 3 22 0" fill="none" stroke="#54392e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M170 211c11 8 25 8 37 0" fill="none" stroke="#a95e55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M181 177l-8 25 13 2" fill="none" stroke="#d48f78" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M121 319c-22 37-34 65-36 84-1 10 6 18 16 18 9 1 15-5 19-15 6-16 18-42 34-79z" fill="url(#skin)"/>
+    <path d="M238 320c24 36 38 64 41 83 2 10-5 18-15 19-9 1-16-5-20-15-7-16-20-41-38-78z" fill="url(#skin)"/>
+    <path d="M116 251c-15 15-23 47-25 94 14 8 31 10 48 6l24-82z" fill="#315c69"/>
+    <path d="M244 251c16 15 25 47 28 94-14 8-31 10-49 6l-26-82z" fill="#315c69"/>
+    <path d="M155 397c20 7 44 7 67 0" fill="none" stroke="#17272f" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+    <path d="M231 289h26v36h-26z" fill="#fffaf2" opacity=".9"/>
+    <path d="M235 296h18" stroke="#d49a2f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

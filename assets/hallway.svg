@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">학교 복도</title>
+  <desc id="desc">창문과 사물함이 있는 학교 복도 배경</desc>
+  <defs>
+    <linearGradient id="hallWall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecf1e6"/>
+      <stop offset=".62" stop-color="#d3dfcf"/>
+      <stop offset=".63" stop-color="#9cb2a8"/>
+      <stop offset="1" stop-color="#78928c"/>
+    </linearGradient>
+    <linearGradient id="hallFloor" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#c9b98c"/>
+      <stop offset="1" stop-color="#806f4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#hallWall)"/>
+  <polygon points="0,518 1200,518 1200,760 0,760" fill="url(#hallFloor)"/>
+  <path d="M0 518h1200" stroke="#607c77" stroke-width="6"/>
+  <path d="M600 518 390 760M600 518 816 760M600 518 600 760" stroke="#6d5c43" stroke-width="2" opacity=".4"/>
+  <path d="M0 620h1200M0 700h1200" stroke="#6d5c43" stroke-width="2" opacity=".3"/>
+
+  <rect x="78" y="88" width="420" height="320" rx="8" fill="#eaf8fb" stroke="#6d9aa6" stroke-width="8"/>
+  <path d="M218 90v316M358 90v316M80 250h416" stroke="#6d9aa6" stroke-width="6"/>
+  <rect x="96" y="106" width="106" height="126" fill="#b9dce6"/>
+  <rect x="238" y="106" width="104" height="126" fill="#d7edf1"/>
+  <rect x="376" y="106" width="104" height="126" fill="#b9dce6"/>
+  <rect x="96" y="268" width="106" height="124" fill="#d7edf1"/>
+  <rect x="238" y="268" width="104" height="124" fill="#b9dce6"/>
+  <rect x="376" y="268" width="104" height="124" fill="#d7edf1"/>
+  <path d="M124 198c61-46 110-54 151-24M386 180c42-26 68-28 86-7" stroke="#fffaf2" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+
+  <g>
+    <rect x="732" y="110" width="278" height="390" rx="8" fill="#d7a74e" stroke="#805b2f" stroke-width="6"/>
+    <path d="M824 116v378M916 116v378M738 208h266M738 302h266M738 396h266" stroke="#805b2f" stroke-width="5"/>
+    <circle cx="806" cy="162" r="6" fill="#805b2f"/>
+    <circle cx="898" cy="256" r="6" fill="#805b2f"/>
+    <circle cx="990" cy="350" r="6" fill="#805b2f"/>
+    <circle cx="806" cy="444" r="6" fill="#805b2f"/>
+  </g>
+
+  <rect x="548" y="96" width="94" height="44" rx="6" fill="#d95542"/>
+  <path d="M570 119h50" stroke="#fffaf2" stroke-width="7" stroke-linecap="round"/>
+  <rect x="600" y="162" width="52" height="210" fill="#79908d"/>
+  <rect x="612" y="184" width="28" height="168" fill="#c8ddd9"/>
+  <path d="M76 520c86 35 197 35 334 0M724 520c112 32 234 30 366-6" stroke="#425c59" stroke-width="5" stroke-linecap="round" opacity=".24"/>
+  <path d="M250 492l47 29 48-31M356 498l34 18M1028 508l-42 25-45-21" stroke="#f2f0e4" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+</svg>

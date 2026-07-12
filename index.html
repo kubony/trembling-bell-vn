@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>흔들리는 종소리</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="game" class="game" data-mood="calm">
+      <section class="stage" aria-label="흔들리는 종소리 게임 화면">
+        <img id="backdrop" class="backdrop" src="assets/generated/classroom-vn.png" alt="">
+        <div id="quakeLayer" class="quake-layer" aria-hidden="true">
+          <span class="dust dust-a"></span>
+          <span class="dust dust-b"></span>
+          <span class="dust dust-c"></span>
+          <span class="debris debris-a"></span>
+          <span class="debris debris-b"></span>
+          <span class="debris debris-c"></span>
+        </div>
+        <img id="characterSprite" class="character-sprite" src="assets/generated/heroine-vn.png" alt="교복을 입은 이수민">
+
+        <header class="hud" aria-label="상태">
+          <div class="title-mark">
+            <span class="episode">Earthquake Drill VN</span>
+            <h1>흔들리는 종소리</h1>
+          </div>
+          <div class="meters">
+            <div class="meter">
+              <span>안전</span>
+              <strong id="safetyValue">0</strong>
+            </div>
+            <div class="meter">
+              <span>호감</span>
+              <strong id="affectionValue">0</strong>
+            </div>
+            <div class="meter">
+              <span>침착</span>
+              <strong id="calmValue">0</strong>
+            </div>
+          </div>
+          <button id="restartButton" class="ghost-button" type="button">처음부터</button>
+        </header>
+
+        <aside id="safetyNote" class="safety-note" hidden></aside>
+
+        <section class="dialogue" aria-live="polite">
+          <div class="speaker-row">
+            <span id="speaker" class="speaker">이수민</span>
+            <span id="phase" class="phase">준비</span>
+          </div>
+          <p id="storyText" class="story-text"></p>
+          <p id="feedback" class="feedback" hidden></p>
+          <div id="choices" class="choices"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

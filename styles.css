@@ -83,13 +83,18 @@ button {
 }
 
 .game[data-mood="quake"] .stage::after,
-.game[data-mood="aftershock"] .stage::after {
+.game[data-mood="aftershock"] .stage::after,
+.game[data-mood="gameover"] .stage::after {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(72, 55, 43, 0.18);
   pointer-events: none;
   z-index: 2;
+}
+
+.game[data-mood="gameover"] .stage::after {
+  background: rgba(54, 10, 16, 0.34);
 }
 
 .quake-layer {
@@ -187,6 +192,10 @@ button {
 
 .game[data-mood="ending"] .character-sprite {
   transform: translateY(-8px);
+}
+
+.game[data-mood="gameover"] .character-sprite {
+  filter: grayscale(0.9) brightness(0.72) drop-shadow(0 24px 32px rgba(22, 32, 42, 0.36));
 }
 
 .hud {
@@ -299,6 +308,11 @@ h1 {
   background: var(--panel);
   box-shadow: 0 18px 50px rgba(22, 32, 42, 0.22);
   backdrop-filter: blur(12px);
+}
+
+.game[data-mood="gameover"] .dialogue {
+  border-color: rgba(217, 85, 66, 0.58);
+  background: rgba(255, 245, 240, 0.96);
 }
 
 .speaker-row {

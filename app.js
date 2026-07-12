@@ -22,9 +22,10 @@ const backgrounds = {
 };
 
 const characterSprites = {
-  normal: "assets/generated/sumin-real-vn.png",
-  worried: "assets/generated/sumin-real-vn.png",
-  smile: "assets/generated/sumin-real-vn.png"
+  normal: "assets/generated/sumin-real-v2.png",
+  surprised: "assets/generated/sumin-surprised.png",
+  blush: "assets/generated/sumin-blush.png",
+  gameover: "assets/generated/sumin-gameover.png"
 };
 
 const initialState = {
@@ -121,7 +122,7 @@ const scenes = {
   quakeStart: {
     bg: "classroom",
     mood: "quake",
-    sprite: "worried",
+    sprite: "surprised",
     phase: "진짜 지진",
     speaker: "교실",
     text:
@@ -144,7 +145,7 @@ const scenes = {
         label: "복도런",
         text: "“일단 복도로 뛰어! 빠른 사람이 살아!”",
         gameOver:
-          "GAME OVER\n\n6반 존잘남 이수민은 당신 때문에 사망했습니다...\n사유: 복도런 메타를 믿고 스피드런을 시도함.\n대피 훈련 게임에서 RTA 찍으면 안 됩니다.",
+          "GAME OVER\n\n6반 존잘남 이수민은 당신 때문에 사망했습니다...\n사유: 복도런 메타를 믿고 스피드런을 시도함.\n대피 훈련 게임에서 스피드런 찍으면 안 됩니다.",
         tone: "danger"
       },
       {
@@ -159,7 +160,7 @@ const scenes = {
   underDesk: {
     bg: "classroom",
     mood: "quake",
-    sprite: "worried",
+    sprite: "surprised",
     phase: "책상 아래",
     speaker: "이수민",
     text:
@@ -270,7 +271,7 @@ const scenes = {
   stairs: {
     bg: "stairs",
     mood: "aftershock",
-    sprite: "worried",
+    sprite: "surprised",
     phase: "계단 여진",
     speaker: "교내 방송",
     text:
@@ -306,7 +307,7 @@ const scenes = {
   ending: {
     bg: "playground",
     mood: "ending",
-    sprite: "smile",
+    sprite: "blush",
     phase: "운동장 엔딩",
     speaker: "이수민",
     text: () => makeEndingText(),
@@ -323,7 +324,7 @@ const scenes = {
   gameOver: {
     bg: "classroom",
     mood: "gameover",
-    sprite: "worried",
+    sprite: "gameover",
     phase: "GAME OVER",
     speaker: "시스템",
     text: () => state.gameOverMessage || "GAME OVER",
